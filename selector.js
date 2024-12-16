@@ -79,11 +79,16 @@
 // console.log(div);
 
 function addOptimizeElement(language){
-    const div=document.createElement("div")
-    const textNode=document.createTextNode(language)
-    div.appendChild(textNode)
-    console.log(div);
+   
     
+    // create div
+    const div=document.createElement("div")
+    // create textNode
+    const textNode=document.createTextNode(language)
+    // textNode add in div
+    div.appendChild(textNode)
+    document.body.appendChild(div)
+    console.log(div);
 }
 addOptimizeElement("java")
 addOptimizeElement("python")
