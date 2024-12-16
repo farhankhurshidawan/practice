@@ -77,7 +77,7 @@ div.style.backgroundColor="gray"
 div.style.textAlign="center"
 console.log(addId);
 console.log(div);
-console.log("div");
+
 
 
 
