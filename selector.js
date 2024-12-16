@@ -63,20 +63,30 @@
 //     element.style.backgroundColor="red"
 // }
 
-// create new element in node
+//********************* */ create new element in node *****************************
 
-const div=document.createElement("div")
+// const div=document.createElement("div")
 
-const addClass=div.className="adClass"
-const addId=div.id="addId"
-const addTitle=div.setAttribute("title","setTitle")
-const addText=document.createTextNode("add Text Node")
-div.appendChild(addText)
-document.body.appendChild(div)
-div.style.backgroundColor="gray"
-div.style.textAlign="center"
-console.log(addId);
-console.log(div);
+// const addClass=div.className="adClass"
+// const addId=div.id="addId"
+// const addTitle=div.setAttribute("title","setTitle")
+// const addText=document.createTextNode("add Text Node")
+// div.appendChild(addText)
+// document.body.appendChild(div)
+// div.style.backgroundColor="gray"
+// div.style.textAlign="center"
+// console.log(addId);
+// console.log(div);
+
+function addOptimizeElement(language){
+    const div=document.createElement("div")
+    const textNode=document.createTextNode(language)
+    div.appendChild(textNode)
+    console.log(div);
+    
+}
+addOptimizeElement("java")
+addOptimizeElement("python")
 
 
 
