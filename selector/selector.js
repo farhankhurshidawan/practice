@@ -92,6 +92,12 @@ function addOptimizeElement(language){
 }
 addOptimizeElement("java")
 addOptimizeElement("python")
+const secondLang=document.querySelector("div:nth-child(2)")
+const newDiv=document.createElement("div")
+newDiv.textContent="change text"
+secondLang.replaceWith(newDiv)
+console.log(secondLang);
+
 
 
 
