@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Window object</h1>
+    <div id="width"></div>
+    <div id="height"></div>
+    <div>window method=> open,close,resizeTo,moveTo</div>
+</body>
+<script>
+
+   let w=document.getElementById("width")
+   let h=document.getElementById("height")
+//    w.innerHTML=`width=${window.innerWidth}px`
+   w.innerHTML=screen.width
+   h.innerHTML=`height=${window.innerHeight}px`
+   let open=document.getElementById("open")
+   open.innerHTML=open("hellow")
+</script>
+</html>
