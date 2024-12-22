@@ -1,3 +1,11 @@
+************* let vs const ********************
+
+<!-- let main value ko reasign and change karsakty hen
+const main value change and reasign != karsakty -->
+
+
+
+
 ****************document.write vs document.innerHTML *****************
 <!-- document.write
  jab ap button click karty hen toh puri page ka content overwrite ho jaye ga aur page reset lagne lagega -->
