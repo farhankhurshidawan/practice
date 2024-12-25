@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Basic JS</h1>
+    <div id="demo"></div>
 </body>
 <script>
     // Arthimatic operator +,-,*,/,%,**,++,--
@@ -14,6 +15,17 @@
     // comparison operator ==,===,!=,!==,>,>=,<,<=,?
     // Logical operator && (multiple true = true) || (only one true) !(true = false , false = true)
     // NaN mean not a number 
+
+
+    //********************* Data Type *************************
+
+    // An empty value has nothing todo with undefined
+    const demo=document.getElementById("demo")
+
+    function name(parameter1,parameter2,parameter3){
+        return parameter1*parameter2*parameter3
+    }
+    demo.innerHTML=name(2,3,4)
     
 
 </script>
