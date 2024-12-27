@@ -1,0 +1,6 @@
+********************* java Script Embed ******************
+
+Head (before the body): Blocks the page render until the script is loaded and executed. Useful for critical functionality but can slow down page loading.
+Outer Body (before </body>): Non-blocking, better for performance as the script runs after the page content is loaded.
+Inner Body: Allows for targeted scripting but requires careful handling of the DOM's readiness.
+
