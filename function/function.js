@@ -19,11 +19,12 @@
 
 // **********function Hoisting **************************
 // JavaScript functions can be called before they are declared:
-myFuncName(10,20)
+document.querySelector("#demo").innerHTML=myFuncName(10,20)
 function myFuncName(parameter1,parameter2){
-    // console using function working
-    document.querySelector("demo").innerHTML=parameter1+parameter2
-    console.log(parameter1+parameter2);
+    // console using hoisting
+    // return and browser not working hoisting
+    return parameter1*parameter2
      
 }
+
 
