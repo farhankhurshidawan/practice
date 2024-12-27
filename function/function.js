@@ -1,0 +1,29 @@
+// const demo=document.querySelector("#demo")
+// // function block of code
+// function myFuncName(parameter1,parameter2){
+//     // return : function will stop execution
+//     return parameter1*parameter2
+// }
+// // myFuncName(argument)
+// myFuncName(10,20)
+
+// // ******** anonymous function(a function without a name) ***************
+// //Functions stored in variables do not need function names.
+// const addVaribale=function (p1,p2){
+//     return p1*p2
+// }
+// demo.innerHTML=addVariable(2,4)
+
+// ***********function constructor *****************************
+
+
+// **********function Hoisting **************************
+// JavaScript functions can be called before they are declared:
+myFuncName(10,20)
+function myFuncName(parameter1,parameter2){
+    // console using function working
+    document.querySelector("demo").innerHTML=parameter1+parameter2
+    console.log(parameter1+parameter2);
+     
+}
+
