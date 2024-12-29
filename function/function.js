@@ -47,4 +47,6 @@
 //  return arguments.length
 // }
 // document.querySelector("#demo").innerHTML=myfunc("farhan",22)
+// // function does not execute ()
+// document.querySelector("#demo").innerHTML=myfunc.toString()
 
