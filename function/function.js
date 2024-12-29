@@ -1,3 +1,5 @@
+// return => function stop mean function execute
+
 // const demo=document.querySelector("#demo")
 // // function block of code
 // function myFuncName(parameter1,parameter2){
@@ -14,7 +16,13 @@
 // }
 // demo.innerHTML=addVariable(2,4)
 
-// ***********function constructor *****************************
+// // ***********function constructor *****************************
+// function myfunc(name,age){
+//     console.log(name,age);
+    
+// }
+// const burhan=new myfunc("Burhan",20)
+// const farhan=new myfunc("Farhan",22)
 
 
 // // **********function Hoisting working**************************
@@ -27,11 +35,16 @@
      
 // }
 
-// ******************self invoking function ****************************
-(function (x){
-    console.log(x);
+// // ******************self invoking function ****************************
+// (function (){
+//     let x="function call itself"
+//     document.querySelector("#demo").innerHTML=x
     
-})(5)
-
-
+// }())
+ 
+// // **************** function are objects *****************
+// function myfunc(name,age){
+//  return arguments.length
+// }
+// document.querySelector("#demo").innerHTML=myfunc("farhan",22)
 
