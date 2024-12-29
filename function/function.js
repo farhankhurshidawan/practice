@@ -17,16 +17,21 @@
 // ***********function constructor *****************************
 
 
-// **********function Hoisting working**************************
-// JavaScript functions can be called before they are declared:
-document.querySelector("#demo").innerHTML=myFuncName(10,20)
-function myFuncName(parameter1,parameter2){
-    // console using hoisting
-    // return and browser not working hoisting
-    return parameter1*parameter2
+// // **********function Hoisting working**************************
+// // JavaScript functions can be called before they are declared:
+// document.querySelector("#demo").innerHTML=myFuncName(10,20)
+// function myFuncName(parameter1,parameter2){
+//     // console using hoisting
+//     // return and browser not working hoisting
+//     return parameter1*parameter2
      
-}
+// }
 
+// ******************self invoking function ****************************
+(function (x){
+    console.log(x);
+    
+})(5)
 
 
 
