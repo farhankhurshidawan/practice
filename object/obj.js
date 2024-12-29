@@ -1,10 +1,45 @@
 // Objects are containers for Properties and Methods.
 // Properties key(name) and values("farhan")
 // methods are function stored as properties
+// *****************basics ******************************
+// // adding new property and del property
+// objectName.addNewProperty="Farhan"
+// delete objectName.addNewProperty
 
-// //  ************Accessing Object Properties******************
-// 1)objName.key
-// 2)objName["key"]
+// // nested objest
+// const objectName={
+//     fahmi:{
+//         son:1,
+//         daughter:2
+//     },
+//     sami:{
+//         son:5,
+//         daughter:2
+//     }
+// }
+// console.log(objectName.sami.son);
+// console.log(objectName["fahmi"]["son"]);
+
+// // function used in obj
+
+// const objectName={
+//     firstName:"farhan",
+//     lastName:"khurshid",
+//     fullName:function myFullName(){
+//         return (`${this.firstName} ${this.lastName}`)
+//     }
+// }
+// console.log(objectName.fullName());
+
+
+
+//  ************Accessing Object Properties******************
+// 1) objectName.property
+// 2) objectName["property"]
+// 3) objectName[expression]
+
+
+
 
 // ********************How to Define a JavaScript Object ****************************
 // // 1) Using an Object Literal
