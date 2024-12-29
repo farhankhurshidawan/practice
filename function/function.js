@@ -17,7 +17,7 @@
 // ***********function constructor *****************************
 
 
-// **********function Hoisting **************************
+// **********function Hoisting working**************************
 // JavaScript functions can be called before they are declared:
 document.querySelector("#demo").innerHTML=myFuncName(10,20)
 function myFuncName(parameter1,parameter2){
@@ -26,5 +26,7 @@ function myFuncName(parameter1,parameter2){
     return parameter1*parameter2
      
 }
+
+
 
 
