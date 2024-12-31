@@ -12,6 +12,10 @@
     // var is hoisted.
     // var binds to this.
 
+    // ********************* Data type *********************************
+    // permitive (stack meamory refrencece) string,number,bigint,boolean,undefined,null,symbol
+    // non-permitive (Heap meamory refrence) Array,function,object
+
     //******************** Operator ****************************
     // Arthematic operator : +,-,*,/,**,%,++,--
     // Assignement operator: =,+=,-+,*=,/=,%=,**=
